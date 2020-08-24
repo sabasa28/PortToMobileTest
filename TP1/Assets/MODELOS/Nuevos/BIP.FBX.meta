@@ -1,0 +1,327 @@
+fileFormatVersion: 2
+guid: 5eaec887520cefe4b951e149b6b3bbef
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Bone067
+    100004: Bone068
+    100006: Bone069
+    100008: Bone071
+    100010: Bone072
+    100012: Bone073
+    100014: Bone074
+    100016: Bone075
+    100018: Bone076
+    100020: Bone080
+    100022: Bone081
+    100024: Bone083
+    100026: Bone085
+    100028: Bone086
+    100030: Bone087
+    100032: Bone090
+    100034: Bone101
+    100036: Bone102
+    100038: Bone103
+    100040: Bone104
+    100042: Bone105
+    100044: Bone106
+    100046: Bone107
+    100048: Bone108
+    100050: Bone109
+    100052: Bone111
+    100054: Bone112
+    100056: Bone113
+    100058: Bone114
+    100060: Bone115
+    100062: Bone116
+    100064: Bone117
+    100066: Bone118
+    100068: Bone119
+    100070: Bone120
+    100072: Bone121
+    100074: Bone122
+    100076: Bone123
+    100078: Bone124
+    100080: Bone125
+    100082: Bone126
+    100084: Bone127
+    100086: Bone128
+    100088: Bone129
+    100090: Bone130
+    100092: Bone131
+    100094: Bone132
+    100096: Bone133
+    100098: Bone134
+    100100: Bone135
+    100102: Bone136
+    100104: Bone137
+    100106: Circle004
+    100108: Circle005
+    100110: Circle006
+    100112: H007
+    100114: H008
+    100116: H009
+    100118: H010
+    100120: H011
+    100122: H012
+    100124: H013
+    100126: H014
+    100128: H015
+    100130: H016
+    100132: IK Chain001
+    100134: IK Chain003
+    100136: IK Chain004
+    100138: IK Chain005
+    100140: Object0034
+    100142: P002
+    100144: PuntoIK009
+    100146: PuntoIK010
+    100148: PuntoIK011
+    100150: PuntoIK012
+    100152: PuntoIK013
+    100154: PuntoIK014
+    100156: Tube001
+    400000: //RootNode
+    400002: Bone067
+    400004: Bone068
+    400006: Bone069
+    400008: Bone071
+    400010: Bone072
+    400012: Bone073
+    400014: Bone074
+    400016: Bone075
+    400018: Bone076
+    400020: Bone080
+    400022: Bone081
+    400024: Bone083
+    400026: Bone085
+    400028: Bone086
+    400030: Bone087
+    400032: Bone090
+    400034: Bone101
+    400036: Bone102
+    400038: Bone103
+    400040: Bone104
+    400042: Bone105
+    400044: Bone106
+    400046: Bone107
+    400048: Bone108
+    400050: Bone109
+    400052: Bone111
+    400054: Bone112
+    400056: Bone113
+    400058: Bone114
+    400060: Bone115
+    400062: Bone116
+    400064: Bone117
+    400066: Bone118
+    400068: Bone119
+    400070: Bone120
+    400072: Bone121
+    400074: Bone122
+    400076: Bone123
+    400078: Bone124
+    400080: Bone125
+    400082: Bone126
+    400084: Bone127
+    400086: Bone128
+    400088: Bone129
+    400090: Bone130
+    400092: Bone131
+    400094: Bone132
+    400096: Bone133
+    400098: Bone134
+    400100: Bone135
+    400102: Bone136
+    400104: Bone137
+    400106: Circle004
+    400108: Circle005
+    400110: Circle006
+    400112: H007
+    400114: H008
+    400116: H009
+    400118: H010
+    400120: H011
+    400122: H012
+    400124: H013
+    400126: H014
+    400128: H015
+    400130: H016
+    400132: IK Chain001
+    400134: IK Chain003
+    400136: IK Chain004
+    400138: IK Chain005
+    400140: Object0034
+    400142: P002
+    400144: PuntoIK009
+    400146: PuntoIK010
+    400148: PuntoIK011
+    400150: PuntoIK012
+    400152: PuntoIK013
+    400154: PuntoIK014
+    400156: Tube001
+    2300000: Circle004
+    2300002: Circle005
+    2300004: Circle006
+    2300006: H007
+    2300008: H008
+    2300010: H009
+    2300012: H010
+    2300014: H011
+    2300016: H012
+    2300018: H013
+    2300020: H014
+    2300022: H015
+    2300024: H016
+    2300026: PuntoIK009
+    2300028: PuntoIK010
+    2300030: PuntoIK011
+    2300032: PuntoIK012
+    2300034: PuntoIK013
+    2300036: PuntoIK014
+    2300038: Tube001
+    3300000: Circle004
+    3300002: Circle005
+    3300004: Circle006
+    3300006: H007
+    3300008: H008
+    3300010: H009
+    3300012: H010
+    3300014: H011
+    3300016: H012
+    3300018: H013
+    3300020: H014
+    3300022: H015
+    3300024: H016
+    3300026: PuntoIK009
+    3300028: PuntoIK010
+    3300030: PuntoIK011
+    3300032: PuntoIK012
+    3300034: PuntoIK013
+    3300036: PuntoIK014
+    3300038: Tube001
+    4300000: Tube001
+    4300002: Circle004
+    4300004: H013
+    4300006: PuntoIK010
+    4300008: PuntoIK014
+    4300010: PuntoIK013
+    4300012: H011
+    4300014: H015
+    4300016: H016
+    4300018: H014
+    4300020: PuntoIK009
+    4300022: PuntoIK012
+    4300024: PuntoIK011
+    4300026: H012
+    4300028: H009
+    4300030: H008
+    4300032: H007
+    4300034: H010
+    4300036: Circle005
+    4300038: Circle006
+    7400000: Take 001
+    11100000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CARA
+    second: {fileID: 2100000, guid: 334cdaf72f8248a47af1c082630190a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Debajo
+    second: {fileID: 2100000, guid: 2b4fc29d3edd90c4188088a123ed36fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: df45799c0f374b541b5046e63b43ae9a, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 3
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

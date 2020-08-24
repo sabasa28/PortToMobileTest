@@ -1,0 +1,341 @@
+fileFormatVersion: 2
+guid: 759f6258ce1344345af49ad29acd0638
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Back Door
+    100002: Back Door - Glass
+    100004: Back Door 1
+    100006: Back Wheel
+    100008: Back Wheel Left
+    100010: Back Wheel Right
+    100012: Bip001
+    100014: Bip001 Footsteps
+    100016: Bip001 Head
+    100018: Bip001 HeadNub
+    100020: Bip001 L Calf
+    100022: Bip001 L Clavicle
+    100024: Bip001 L Finger0
+    100026: Bip001 L Finger0Nub
+    100028: Bip001 L Foot
+    100030: Bip001 L Forearm
+    100032: Bip001 L Hand
+    100034: Bip001 L Thigh
+    100036: Bip001 L Toe0
+    100038: Bip001 L Toe01
+    100040: Bip001 L Toe02
+    100042: Bip001 L Toe0Nub
+    100044: Bip001 L UpperArm
+    100046: Bip001 Neck
+    100048: Bip001 Pelvis
+    100050: Bip001 R Calf
+    100052: Bip001 R Clavicle
+    100054: Bip001 R Finger0
+    100056: Bip001 R Finger0Nub
+    100058: Bip001 R Foot
+    100060: Bip001 R Forearm
+    100062: Bip001 R Hand
+    100064: Bip001 R Thigh
+    100066: Bip001 R Toe0
+    100068: Bip001 R Toe01
+    100070: Bip001 R Toe02
+    100072: Bip001 R Toe0Nub
+    100074: Bip001 R UpperArm
+    100076: Bip001 Spine
+    100078: Bip001 Spine1
+    100080: Bip001 Spine2
+    100082: Bip001 Spine3
+    100084: Front Left Door - Glass
+    100086: Front Right Door
+    100088: Front Right Door - Glass
+    100090: Front Wheel
+    100092: Front Wheel Left
+    100094: Front Wheel Right
+    100096: Inside Glass
+    100098: Middle Left Door - Glass
+    100100: Middle Right Door
+    100102: Middle Right Door - Glass
+    100104: Object
+    100106: Object002
+    100108: Object004
+    100110: Object006
+    100112: Object008
+    100114: Object010
+    100116: Plane001
+    100118: Safe Box
+    100120: Torus001
+    100122: Truck
+    100124: Truck - Front Glass
+    100126: //RootNode
+    100128: Wheel - Buyer
+    100130: Wheel - Buyer 1
+    100132: Wheel - Front piece
+    100134: Wheel - Front piece 1
+    100136: Wheel - Innertube
+    100138: Wheel - Innertube 1
+    400000: Back Door
+    400002: Back Door - Glass
+    400004: Back Door 1
+    400006: Back Wheel
+    400008: Back Wheel Left
+    400010: Back Wheel Right
+    400012: Bip001
+    400014: Bip001 Footsteps
+    400016: Bip001 Head
+    400018: Bip001 HeadNub
+    400020: Bip001 L Calf
+    400022: Bip001 L Clavicle
+    400024: Bip001 L Finger0
+    400026: Bip001 L Finger0Nub
+    400028: Bip001 L Foot
+    400030: Bip001 L Forearm
+    400032: Bip001 L Hand
+    400034: Bip001 L Thigh
+    400036: Bip001 L Toe0
+    400038: Bip001 L Toe01
+    400040: Bip001 L Toe02
+    400042: Bip001 L Toe0Nub
+    400044: Bip001 L UpperArm
+    400046: Bip001 Neck
+    400048: Bip001 Pelvis
+    400050: Bip001 R Calf
+    400052: Bip001 R Clavicle
+    400054: Bip001 R Finger0
+    400056: Bip001 R Finger0Nub
+    400058: Bip001 R Foot
+    400060: Bip001 R Forearm
+    400062: Bip001 R Hand
+    400064: Bip001 R Thigh
+    400066: Bip001 R Toe0
+    400068: Bip001 R Toe01
+    400070: Bip001 R Toe02
+    400072: Bip001 R Toe0Nub
+    400074: Bip001 R UpperArm
+    400076: Bip001 Spine
+    400078: Bip001 Spine1
+    400080: Bip001 Spine2
+    400082: Bip001 Spine3
+    400084: Front Left Door - Glass
+    400086: Front Right Door
+    400088: Front Right Door - Glass
+    400090: Front Wheel
+    400092: Front Wheel Left
+    400094: Front Wheel Right
+    400096: Inside Glass
+    400098: Middle Left Door - Glass
+    400100: Middle Right Door
+    400102: Middle Right Door - Glass
+    400104: Object
+    400106: Object002
+    400108: Object004
+    400110: Object006
+    400112: Object008
+    400114: Object010
+    400116: Plane001
+    400118: Safe Box
+    400120: Torus001
+    400122: Truck
+    400124: Truck - Front Glass
+    400126: //RootNode
+    400128: Wheel - Buyer
+    400130: Wheel - Buyer 1
+    400132: Wheel - Front piece
+    400134: Wheel - Front piece 1
+    400136: Wheel - Innertube
+    400138: Wheel - Innertube 1
+    2300000: Back Door - Glass
+    2300002: Back Door 1
+    2300004: Front Left Door - Glass
+    2300006: Front Right Door
+    2300008: Front Right Door - Glass
+    2300010: Inside Glass
+    2300012: Middle Left Door - Glass
+    2300014: Middle Right Door
+    2300016: Middle Right Door - Glass
+    2300018: Object
+    2300020: Object002
+    2300022: Object004
+    2300024: Object006
+    2300026: Object008
+    2300028: Object010
+    2300030: Plane001
+    2300032: Safe Box
+    2300034: Torus001
+    2300036: Truck
+    2300038: Truck - Front Glass
+    2300040: Wheel - Buyer
+    2300042: Wheel - Buyer 1
+    2300044: Wheel - Front piece
+    2300046: Wheel - Front piece 1
+    2300048: Wheel - Innertube
+    2300050: Wheel - Innertube 1
+    3300000: Back Door - Glass
+    3300002: Back Door 1
+    3300004: Front Left Door - Glass
+    3300006: Front Right Door
+    3300008: Front Right Door - Glass
+    3300010: Inside Glass
+    3300012: Middle Left Door - Glass
+    3300014: Middle Right Door
+    3300016: Middle Right Door - Glass
+    3300018: Object
+    3300020: Object002
+    3300022: Object004
+    3300024: Object006
+    3300026: Object008
+    3300028: Object010
+    3300030: Plane001
+    3300032: Safe Box
+    3300034: Torus001
+    3300036: Truck
+    3300038: Truck - Front Glass
+    3300040: Wheel - Buyer
+    3300042: Wheel - Buyer 1
+    3300044: Wheel - Front piece
+    3300046: Wheel - Front piece 1
+    3300048: Wheel - Innertube
+    3300050: Wheel - Innertube 1
+    4300000: Plane001
+    4300002: Truck
+    4300004: Truck - Front Glass
+    4300006: Front Right Door - Glass
+    4300008: Front Right Door
+    4300010: Middle Left Door - Glass
+    4300012: Middle Right Door
+    4300014: Inside Glass
+    4300016: Front Left Door - Glass
+    4300018: Torus001
+    4300020: Middle Right Door - Glass
+    4300022: Back Door
+    4300024: Back Door - Glass
+    4300026: Object010
+    4300028: Object006
+    4300030: Object008
+    4300032: Wheel - Innertube
+    4300034: Wheel - Buyer
+    4300036: Wheel - Front piece
+    4300038: Wheel - Front piece
+    4300040: Wheel - Buyer
+    4300042: Wheel - Innertube
+    4300044: Object
+    4300046: Object002
+    4300048: Object004
+    4300050: Safe Box
+    7400000: Take 001
+    11100000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 01 - Default
+    second: {fileID: 2100000, guid: a4286fc2a8e189e40ad4b4793f5878cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 02 - Default
+    second: {fileID: 2100000, guid: 2bd3d6cd8345b55439714fd7d97afd9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Buyer
+    second: {fileID: 2100000, guid: 2cec6bbea0a589d40affaf92ab7821f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Innertube
+    second: {fileID: 2100000, guid: a440b50692817f34eb324c9850fcbdea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 04b9997c07e4f9045895a956f30b8a1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Transparente
+    second: {fileID: 2100000, guid: 0a0864d9db1c9b34f8db0cc24999f1b4, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 3
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

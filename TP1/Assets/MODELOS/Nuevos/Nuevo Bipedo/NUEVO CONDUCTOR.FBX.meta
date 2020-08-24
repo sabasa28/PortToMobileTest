@@ -1,0 +1,178 @@
+fileFormatVersion: 2
+guid: 879d4327554c30b43a4ee6d2890b6007
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Aura (?
+    100002: Bone013
+    100004: Bone014
+    100006: Bone018
+    100008: Bone019
+    100010: Bone026
+    100012: Head
+    100014: IK Chain001
+    100016: IK Chain002
+    100018: IK Chain003
+    100020: IK Chain004
+    100022: Left Ankle
+    100024: Left Elbow
+    100026: Left Foot
+    100028: Left Foot Fingers (DO not use)
+    100030: Left Hand
+    100032: Left Hand Fingers ( DO not use)
+    100034: Left Shoulder
+    100036: Left Wrist (DO not use)
+    100038: Neck
+    100040: //RootNode
+    100042: Point001
+    100044: Point002
+    100046: Point003
+    100048: Point004
+    100050: Right Ankle
+    100052: Right Foot
+    100054: Right Foot Fingers ( Do not use)
+    100056: Right Hand
+    100058: Right Hand Fingers (DO not USe)
+    100060: Right Wrist ( DO not Use)
+    100062: RightElbow
+    100064: RightShoulder
+    100066: Skin
+    100068: Torso
+    100070: Waist (Main Father)
+    400000: Aura (?
+    400002: Bone013
+    400004: Bone014
+    400006: Bone018
+    400008: Bone019
+    400010: Bone026
+    400012: Head
+    400014: IK Chain001
+    400016: IK Chain002
+    400018: IK Chain003
+    400020: IK Chain004
+    400022: Left Ankle
+    400024: Left Elbow
+    400026: Left Foot
+    400028: Left Foot Fingers (DO not use)
+    400030: Left Hand
+    400032: Left Hand Fingers ( DO not use)
+    400034: Left Shoulder
+    400036: Left Wrist (DO not use)
+    400038: Neck
+    400040: //RootNode
+    400042: Point001
+    400044: Point002
+    400046: Point003
+    400048: Point004
+    400050: Right Ankle
+    400052: Right Foot
+    400054: Right Foot Fingers ( Do not use)
+    400056: Right Hand
+    400058: Right Hand Fingers (DO not USe)
+    400060: Right Wrist ( DO not Use)
+    400062: RightElbow
+    400064: RightShoulder
+    400066: Skin
+    400068: Torso
+    400070: Waist (Main Father)
+    4300000: Skin
+    7400000: Take 001
+    11100000: //RootNode
+    13700000: Skin
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CARA
+    second: {fileID: 2100000, guid: 7039161529ccdf04b93f2b083fc062f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Debajo
+    second: {fileID: 2100000, guid: be07106b76190cb4eb86e7333f65e440, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 3
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

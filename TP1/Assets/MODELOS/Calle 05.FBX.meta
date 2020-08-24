@@ -1,0 +1,773 @@
+fileFormatVersion: 2
+guid: 3edc3efda71213a40a9f32b767dc6ab5
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Blue Window
+    100002: Blue Window001
+    100004: Blue Window002
+    100006: Blue Window003
+    100008: Blue Window004
+    100010: Blue Window005
+    100012: Blue Window006
+    100014: Blue Window007
+    100016: Blue Window008
+    100018: Blue Window009
+    100020: Blue Window010
+    100022: Blue Window011
+    100024: Box001
+    100026: Box002
+    100028: Box003
+    100030: Box004
+    100032: Box005
+    100034: Box006
+    100036: Box007
+    100038: Box008
+    100040: Box009
+    100042: Box010
+    100044: Box011
+    100046: Box012
+    100048: Box013
+    100050: Box014
+    100052: Box015
+    100054: Box016
+    100056: Box017
+    100058: Box018
+    100060: Box019
+    100062: Box020
+    100064: Box025
+    100066: Box026
+    100068: Box027
+    100070: Box028
+    100072: Box029
+    100074: Box030
+    100076: Box031
+    100078: Box032
+    100080: //RootNode
+    100082: ChamferBox001
+    100084: ChamferBox002
+    100086: ChamferBox003
+    100088: ChamferBox004
+    100090: ChamferBox005
+    100092: Circle002
+    100094: cone
+    100096: cone001
+    100098: cone002
+    100100: "Contorno Sem\xE1foro"
+    100102: "Contorno Sem\xE1foro001"
+    100104: "Covertura luces sem\xE1foro"
+    100106: "Covertura luces sem\xE1foro001"
+    100108: "Covertura luces sem\xE1foro002"
+    100110: "Covertura luces sem\xE1foro003"
+    100112: "Covertura luces sem\xE1foro004"
+    100114: "Covertura luces sem\xE1foro005"
+    100116: Cylinder001
+    100118: Cylinder002
+    100120: Cylinder003
+    100122: Cylinder004
+    100124: Luz Amarilla001
+    100126: Luz Amarilla002
+    100128: Luz Amarilla003
+    100130: Luz Amarilla004
+    100132: Luz Amarilla005
+    100134: Luz Amarilla006
+    100136: Luz Roja
+    100138: Luz Roja001
+    100140: Luz Roja002
+    100142: Luz Roja003
+    100144: Luz Roja004
+    100146: Luz Roja005
+    100148: Luz Verde001
+    100150: Luz Verde002
+    100152: Luz Verde003
+    100154: Luz Verde004
+    100156: Luz Verde005
+    100158: Luz Verde006
+    100160: Object0034
+    100162: Object012
+    100164: Object013
+    100166: Object035
+    100168: Object036
+    100170: Object037
+    100172: Object038
+    100174: Object039
+    100176: Object040
+    100178: Object041
+    100180: Object042
+    100182: Object043
+    100184: Object044
+    100186: Object045
+    100188: Object046
+    100190: Object047
+    100192: Object048
+    100194: Object049
+    100196: Object050
+    100198: Object051
+    100200: Object052
+    100202: Object053
+    100204: Object054
+    100206: Object055
+    100208: Object056
+    100210: Object057
+    100212: Object058
+    100214: Object059
+    100216: Plane001
+    100218: Rectangle001
+    100220: Rectangle002
+    100222: Rectangle003
+    100224: Rectangle004
+    100226: Rectangle005
+    100228: "Sem\xE1foro"
+    100230: "Sem\xE1foro001"
+    100232: "Sem\xE1foro002"
+    100234: "Sem\xE1foro003"
+    100236: "Sem\xE1foro004"
+    100238: "Sem\xE1foro005"
+    100240: Shape002
+    100242: Shape006
+    100244: Shape007
+    100246: Shape008
+    100248: Star001
+    100250: Star002
+    100252: Star003
+    400000: Blue Window
+    400002: Blue Window001
+    400004: Blue Window002
+    400006: Blue Window003
+    400008: Blue Window004
+    400010: Blue Window005
+    400012: Blue Window006
+    400014: Blue Window007
+    400016: Blue Window008
+    400018: Blue Window009
+    400020: Blue Window010
+    400022: Blue Window011
+    400024: Box001
+    400026: Box002
+    400028: Box003
+    400030: Box004
+    400032: Box005
+    400034: Box006
+    400036: Box007
+    400038: Box008
+    400040: Box009
+    400042: Box010
+    400044: Box011
+    400046: Box012
+    400048: Box013
+    400050: Box014
+    400052: Box015
+    400054: Box016
+    400056: Box017
+    400058: Box018
+    400060: Box019
+    400062: Box020
+    400064: Box025
+    400066: Box026
+    400068: Box027
+    400070: Box028
+    400072: Box029
+    400074: Box030
+    400076: Box031
+    400078: Box032
+    400080: //RootNode
+    400082: ChamferBox001
+    400084: ChamferBox002
+    400086: ChamferBox003
+    400088: ChamferBox004
+    400090: ChamferBox005
+    400092: Circle002
+    400094: cone
+    400096: cone001
+    400098: cone002
+    400100: "Contorno Sem\xE1foro"
+    400102: "Contorno Sem\xE1foro001"
+    400104: "Covertura luces sem\xE1foro"
+    400106: "Covertura luces sem\xE1foro001"
+    400108: "Covertura luces sem\xE1foro002"
+    400110: "Covertura luces sem\xE1foro003"
+    400112: "Covertura luces sem\xE1foro004"
+    400114: "Covertura luces sem\xE1foro005"
+    400116: Cylinder001
+    400118: Cylinder002
+    400120: Cylinder003
+    400122: Cylinder004
+    400124: Luz Amarilla001
+    400126: Luz Amarilla002
+    400128: Luz Amarilla003
+    400130: Luz Amarilla004
+    400132: Luz Amarilla005
+    400134: Luz Amarilla006
+    400136: Luz Roja
+    400138: Luz Roja001
+    400140: Luz Roja002
+    400142: Luz Roja003
+    400144: Luz Roja004
+    400146: Luz Roja005
+    400148: Luz Verde001
+    400150: Luz Verde002
+    400152: Luz Verde003
+    400154: Luz Verde004
+    400156: Luz Verde005
+    400158: Luz Verde006
+    400160: Object0034
+    400162: Object012
+    400164: Object013
+    400166: Object035
+    400168: Object036
+    400170: Object037
+    400172: Object038
+    400174: Object039
+    400176: Object040
+    400178: Object041
+    400180: Object042
+    400182: Object043
+    400184: Object044
+    400186: Object045
+    400188: Object046
+    400190: Object047
+    400192: Object048
+    400194: Object049
+    400196: Object050
+    400198: Object051
+    400200: Object052
+    400202: Object053
+    400204: Object054
+    400206: Object055
+    400208: Object056
+    400210: Object057
+    400212: Object058
+    400214: Object059
+    400216: Plane001
+    400218: Rectangle001
+    400220: Rectangle002
+    400222: Rectangle003
+    400224: Rectangle004
+    400226: Rectangle005
+    400228: "Sem\xE1foro"
+    400230: "Sem\xE1foro001"
+    400232: "Sem\xE1foro002"
+    400234: "Sem\xE1foro003"
+    400236: "Sem\xE1foro004"
+    400238: "Sem\xE1foro005"
+    400240: Shape002
+    400242: Shape006
+    400244: Shape007
+    400246: Shape008
+    400248: Star001
+    400250: Star002
+    400252: Star003
+    2300000: Blue Window
+    2300002: Blue Window001
+    2300004: Blue Window002
+    2300006: Blue Window003
+    2300008: Blue Window004
+    2300010: Blue Window005
+    2300012: Blue Window006
+    2300014: Blue Window007
+    2300016: Blue Window008
+    2300018: Blue Window009
+    2300020: Blue Window010
+    2300022: Blue Window011
+    2300024: Box001
+    2300026: Box002
+    2300028: Box003
+    2300030: Box004
+    2300032: Box005
+    2300034: Box006
+    2300036: Box007
+    2300038: Box008
+    2300040: Box009
+    2300042: Box010
+    2300044: Box011
+    2300046: Box012
+    2300048: Box013
+    2300050: Box014
+    2300052: Box015
+    2300054: Box016
+    2300056: Box017
+    2300058: Box018
+    2300060: Box019
+    2300062: Box020
+    2300064: Box026
+    2300066: Box027
+    2300068: Box028
+    2300070: Box029
+    2300072: Box030
+    2300074: Box031
+    2300076: Box032
+    2300078: ChamferBox001
+    2300080: ChamferBox002
+    2300082: ChamferBox003
+    2300084: ChamferBox004
+    2300086: ChamferBox005
+    2300088: Circle002
+    2300090: cone
+    2300092: cone001
+    2300094: cone002
+    2300096: "Contorno Sem\xE1foro"
+    2300098: "Contorno Sem\xE1foro001"
+    2300100: "Covertura luces sem\xE1foro"
+    2300102: "Covertura luces sem\xE1foro001"
+    2300104: "Covertura luces sem\xE1foro002"
+    2300106: "Covertura luces sem\xE1foro003"
+    2300108: "Covertura luces sem\xE1foro004"
+    2300110: "Covertura luces sem\xE1foro005"
+    2300112: Cylinder001
+    2300114: Cylinder002
+    2300116: Cylinder003
+    2300118: Cylinder004
+    2300120: Luz Amarilla001
+    2300122: Luz Amarilla002
+    2300124: Luz Amarilla003
+    2300126: Luz Amarilla004
+    2300128: Luz Amarilla005
+    2300130: Luz Amarilla006
+    2300132: Luz Roja
+    2300134: Luz Roja001
+    2300136: Luz Roja002
+    2300138: Luz Roja003
+    2300140: Luz Roja004
+    2300142: Luz Roja005
+    2300144: Luz Verde001
+    2300146: Luz Verde002
+    2300148: Luz Verde003
+    2300150: Luz Verde004
+    2300152: Luz Verde005
+    2300154: Luz Verde006
+    2300156: Object012
+    2300158: Object013
+    2300160: Object035
+    2300162: Object036
+    2300164: Object037
+    2300166: Object038
+    2300168: Object039
+    2300170: Object040
+    2300172: Object041
+    2300174: Object042
+    2300176: Object043
+    2300178: Object044
+    2300180: Object045
+    2300182: Object046
+    2300184: Object047
+    2300186: Object048
+    2300188: Object049
+    2300190: Object050
+    2300192: Object051
+    2300194: Object052
+    2300196: Object053
+    2300198: Object054
+    2300200: Object055
+    2300202: Object056
+    2300204: Object057
+    2300206: Object058
+    2300208: Object059
+    2300210: Plane001
+    2300212: Rectangle001
+    2300214: Rectangle002
+    2300216: Rectangle003
+    2300218: Rectangle004
+    2300220: Rectangle005
+    2300222: "Sem\xE1foro"
+    2300224: "Sem\xE1foro001"
+    2300226: "Sem\xE1foro002"
+    2300228: "Sem\xE1foro003"
+    2300230: "Sem\xE1foro004"
+    2300232: "Sem\xE1foro005"
+    2300234: Shape002
+    2300236: Shape006
+    2300238: Shape007
+    2300240: Shape008
+    2300242: Star001
+    2300244: Star002
+    2300246: Star003
+    3300000: Blue Window
+    3300002: Blue Window001
+    3300004: Blue Window002
+    3300006: Blue Window003
+    3300008: Blue Window004
+    3300010: Blue Window005
+    3300012: Blue Window006
+    3300014: Blue Window007
+    3300016: Blue Window008
+    3300018: Blue Window009
+    3300020: Blue Window010
+    3300022: Blue Window011
+    3300024: Box001
+    3300026: Box002
+    3300028: Box003
+    3300030: Box004
+    3300032: Box005
+    3300034: Box006
+    3300036: Box007
+    3300038: Box008
+    3300040: Box009
+    3300042: Box010
+    3300044: Box011
+    3300046: Box012
+    3300048: Box013
+    3300050: Box014
+    3300052: Box015
+    3300054: Box016
+    3300056: Box017
+    3300058: Box018
+    3300060: Box019
+    3300062: Box020
+    3300064: Box026
+    3300066: Box027
+    3300068: Box028
+    3300070: Box029
+    3300072: Box030
+    3300074: Box031
+    3300076: Box032
+    3300078: ChamferBox001
+    3300080: ChamferBox002
+    3300082: ChamferBox003
+    3300084: ChamferBox004
+    3300086: ChamferBox005
+    3300088: Circle002
+    3300090: cone
+    3300092: cone001
+    3300094: cone002
+    3300096: "Contorno Sem\xE1foro"
+    3300098: "Contorno Sem\xE1foro001"
+    3300100: "Covertura luces sem\xE1foro"
+    3300102: "Covertura luces sem\xE1foro001"
+    3300104: "Covertura luces sem\xE1foro002"
+    3300106: "Covertura luces sem\xE1foro003"
+    3300108: "Covertura luces sem\xE1foro004"
+    3300110: "Covertura luces sem\xE1foro005"
+    3300112: Cylinder001
+    3300114: Cylinder002
+    3300116: Cylinder003
+    3300118: Cylinder004
+    3300120: Luz Amarilla001
+    3300122: Luz Amarilla002
+    3300124: Luz Amarilla003
+    3300126: Luz Amarilla004
+    3300128: Luz Amarilla005
+    3300130: Luz Amarilla006
+    3300132: Luz Roja
+    3300134: Luz Roja001
+    3300136: Luz Roja002
+    3300138: Luz Roja003
+    3300140: Luz Roja004
+    3300142: Luz Roja005
+    3300144: Luz Verde001
+    3300146: Luz Verde002
+    3300148: Luz Verde003
+    3300150: Luz Verde004
+    3300152: Luz Verde005
+    3300154: Luz Verde006
+    3300156: Object012
+    3300158: Object013
+    3300160: Object035
+    3300162: Object036
+    3300164: Object037
+    3300166: Object038
+    3300168: Object039
+    3300170: Object040
+    3300172: Object041
+    3300174: Object042
+    3300176: Object043
+    3300178: Object044
+    3300180: Object045
+    3300182: Object046
+    3300184: Object047
+    3300186: Object048
+    3300188: Object049
+    3300190: Object050
+    3300192: Object051
+    3300194: Object052
+    3300196: Object053
+    3300198: Object054
+    3300200: Object055
+    3300202: Object056
+    3300204: Object057
+    3300206: Object058
+    3300208: Object059
+    3300210: Plane001
+    3300212: Rectangle001
+    3300214: Rectangle002
+    3300216: Rectangle003
+    3300218: Rectangle004
+    3300220: Rectangle005
+    3300222: "Sem\xE1foro"
+    3300224: "Sem\xE1foro001"
+    3300226: "Sem\xE1foro002"
+    3300228: "Sem\xE1foro003"
+    3300230: "Sem\xE1foro004"
+    3300232: "Sem\xE1foro005"
+    3300234: Shape002
+    3300236: Shape006
+    3300238: Shape007
+    3300240: Shape008
+    3300242: Star001
+    3300244: Star002
+    3300246: Star003
+    4300000: Plane001
+    4300002: ChamferBox001
+    4300004: ChamferBox002
+    4300006: Cylinder001
+    4300008: Box001
+    4300010: Box002
+    4300012: Sem__foro
+    4300014: Covertura luces sem__foro
+    4300016: Contorno Sem__foro
+    4300018: Luz Roja
+    4300020: Luz Amarilla001
+    4300022: Luz Verde001
+    4300024: Cylinder002
+    4300026: Luz Amarilla002
+    4300028: Covertura luces sem__foro001
+    4300030: Luz Roja001
+    4300032: Luz Verde002
+    4300034: Sem__foro001
+    4300036: Sem__foro002
+    4300038: Luz Roja002
+    4300040: Covertura luces sem__foro002
+    4300042: Luz Amarilla003
+    4300044: Luz Verde003
+    4300046: Box003
+    4300048: Box004
+    4300050: Box005
+    4300052: Box006
+    4300054: Box007
+    4300056: Box008
+    4300058: Box009
+    4300060: Box010
+    4300062: ChamferBox003
+    4300064: Object012
+    4300066: Object013
+    4300068: Box011
+    4300070: Box012
+    4300072: Box013
+    4300074: Box014
+    4300076: Box015
+    4300078: Box016
+    4300080: Box017
+    4300082: Box018
+    4300084: Box019
+    4300086: Box020
+    4300088: ChamferBox004
+    4300090: ChamferBox005
+    4300092: cone
+    4300094: Circle002
+    4300096: Shape002
+    4300098: Blue Window
+    4300100: Blue Window001
+    4300102: Blue Window002
+    4300104: Blue Window003
+    4300106: Blue Window004
+    4300108: Blue Window005
+    4300110: Blue Window006
+    4300112: Blue Window007
+    4300114: Blue Window008
+    4300116: Blue Window009
+    4300118: Blue Window010
+    4300120: Blue Window011
+    4300122: Rectangle001
+    4300124: Rectangle002
+    4300126: Rectangle003
+    4300128: Shape006
+    4300130: Box026
+    4300132: Shape007
+    4300134: Shape008
+    4300136: Box027
+    4300138: Box028
+    4300140: Box029
+    4300142: Object035
+    4300144: Object036
+    4300146: Object037
+    4300148: Object038
+    4300150: Object039
+    4300152: Object040
+    4300154: Object041
+    4300156: Rectangle004
+    4300158: Box030
+    4300160: Object042
+    4300162: Object043
+    4300164: Object044
+    4300166: Object045
+    4300168: Object046
+    4300170: Object047
+    4300172: Object048
+    4300174: Object049
+    4300176: Object050
+    4300178: Object051
+    4300180: Box031
+    4300182: Object052
+    4300184: Object053
+    4300186: Object054
+    4300188: Object055
+    4300190: Object056
+    4300192: Box032
+    4300194: Rectangle005
+    4300196: Star001
+    4300198: Star002
+    4300200: Star003
+    4300202: Object057
+    4300204: Object058
+    4300206: Object059
+    4300208: cone001
+    4300210: cone002
+    4300212: Cylinder003
+    4300214: Sem__foro003
+    4300216: Covertura luces sem__foro003
+    4300218: Contorno Sem__foro001
+    4300220: Luz Roja003
+    4300222: Luz Amarilla004
+    4300224: Luz Verde004
+    4300226: Sem__foro004
+    4300228: Luz Amarilla005
+    4300230: Covertura luces sem__foro004
+    4300232: Luz Roja004
+    4300234: Luz Verde005
+    4300236: Sem__foro005
+    4300238: Luz Roja005
+    4300240: Covertura luces sem__foro005
+    4300242: Luz Amarilla006
+    4300244: Luz Verde006
+    4300246: Cylinder004
+    4300248: "Sem\xE1foro"
+    4300250: "Covertura luces sem\xE1foro"
+    4300252: "Contorno Sem\xE1foro"
+    4300254: "Covertura luces sem\xE1foro001"
+    4300256: "Sem\xE1foro001"
+    4300258: "Sem\xE1foro002"
+    4300260: "Covertura luces sem\xE1foro002"
+    4300262: "Sem\xE1foro003"
+    4300264: "Covertura luces sem\xE1foro003"
+    4300266: "Contorno Sem\xE1foro001"
+    4300268: "Sem\xE1foro004"
+    4300270: "Covertura luces sem\xE1foro004"
+    4300272: "Sem\xE1foro005"
+    4300274: "Covertura luces sem\xE1foro005"
+    11100000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 13 - Default
+    second: {fileID: 2100000, guid: 76a947e6fafeef84ebb30f936e8d0721, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Calle
+    second: {fileID: 2100000, guid: 632a4bc86f200984ea6c22e60302c6d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Cord\xF3n"
+    second: {fileID: 2100000, guid: 0e9b71d542b7a3446a6031428bdd7f61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Edificio 01
+    second: {fileID: 2100000, guid: 994f1e105e4d88d42a3d7a4c95373310, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Edificio 02
+    second: {fileID: 2100000, guid: a43ea0ce16a9f0c4eb1e5c0b76a96d85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 6c60ebbd92abcf64db2485290d12ac88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cone_red
+    second: {fileID: 2100000, guid: 863a1bb150383bd4884b78ef7c82955b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cone_white
+    second: {fileID: 2100000, guid: a1f8153396d63b14e867bb92f36e9064, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 3
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

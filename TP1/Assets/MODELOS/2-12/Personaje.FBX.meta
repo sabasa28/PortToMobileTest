@@ -1,0 +1,238 @@
+fileFormatVersion: 2
+guid: 1905a384afb06994a935eab204e30877
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: (IK Animacion para 3Dmax) 001
+    100002: (IK Animacion para 3Dmax) 002
+    100004: (IK Animacion para 3Dmax) 003
+    100006: (IK Animacion para 3Dmax) 004
+    100008: (Left Arm Helper 3dMax) /Evita Torceduras/
+    100010: (Left leg Helper 3dMax) /Evita Torceduras/
+    100012: (Right arm Helper 3dMax) /Evita Torceduras/
+    100014: (Right leg Helper 3dMax) /Evita Torceduras/
+    100016: Aura (?
+    100018: Head
+    100020: Left Ankle
+    100022: Left Elbow
+    100024: Left Foot
+    100026: Left Foot Fingers (DO not use)
+    100028: Left Hand
+    100030: Left Hand Fingers ( DO not use)
+    100032: Left Hip
+    100034: Left Knee
+    100036: Left Shoulder
+    100038: Left Wrist (DO not use)
+    100040: Neck
+    100042: Neck Reference
+    100044: //RootNode
+    100046: Right Ankle
+    100048: Right Foot
+    100050: Right Foot Fingers ( Do not use)
+    100052: Right Hand
+    100054: Right Hand Fingers (DO not USe)
+    100056: Right Hip
+    100058: Right Knee
+    100060: Right Wrist ( DO not Use)
+    100062: RightElbow
+    100064: RightShoulder
+    100066: Skin
+    100068: Skin001
+    100070: Sphere002
+    100072: Sphere003
+    100074: Torso
+    100076: Waist (Main Father)
+    400000: (IK Animacion para 3Dmax) 001
+    400002: (IK Animacion para 3Dmax) 002
+    400004: (IK Animacion para 3Dmax) 003
+    400006: (IK Animacion para 3Dmax) 004
+    400008: (Left Arm Helper 3dMax) /Evita Torceduras/
+    400010: (Left leg Helper 3dMax) /Evita Torceduras/
+    400012: (Right arm Helper 3dMax) /Evita Torceduras/
+    400014: (Right leg Helper 3dMax) /Evita Torceduras/
+    400016: Aura (?
+    400018: Head
+    400020: Left Ankle
+    400022: Left Elbow
+    400024: Left Foot
+    400026: Left Foot Fingers (DO not use)
+    400028: Left Hand
+    400030: Left Hand Fingers ( DO not use)
+    400032: Left Hip
+    400034: Left Knee
+    400036: Left Shoulder
+    400038: Left Wrist (DO not use)
+    400040: Neck
+    400042: Neck Reference
+    400044: //RootNode
+    400046: Right Ankle
+    400048: Right Foot
+    400050: Right Foot Fingers ( Do not use)
+    400052: Right Hand
+    400054: Right Hand Fingers (DO not USe)
+    400056: Right Hip
+    400058: Right Knee
+    400060: Right Wrist ( DO not Use)
+    400062: RightElbow
+    400064: RightShoulder
+    400066: Skin
+    400068: Skin001
+    400070: Sphere002
+    400072: Sphere003
+    400074: Torso
+    400076: Waist (Main Father)
+    2300000: Skin001
+    2300002: Sphere002
+    2300004: Sphere003
+    3300000: Skin001
+    3300002: Sphere002
+    3300004: Sphere003
+    4300000: Skin
+    4300002: Skin001
+    4300004: Sphere002
+    4300006: Sphere003
+    7400000: Take 001
+    11100000: //RootNode
+    13700000: Skin
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 05 - Default
+    second: {fileID: 2100000, guid: bd81535872390134681dffe7a2816dc9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 06 - Default
+    second: {fileID: 2100000, guid: ce04d21a1d62c914ba1f5639bf41fb66, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Abrojo
+    second: {fileID: 2100000, guid: e35585e2a9952ef4aa6e71f907b2a213, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Accesorio parte 01
+    second: {fileID: 2100000, guid: dbc42aa795edbdc4aa8e222e10272122, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Accesorio parte 02
+    second: {fileID: 2100000, guid: f0c15daeca9177b44b01c0d1ad3e0457, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cinturon
+    second: {fileID: 2100000, guid: 740be8a067af8cf4f8b697848b3ef1a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pantalon
+    second: {fileID: 2100000, guid: ca1957063959ca9498e3878b949bc0d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Piel
+    second: {fileID: 2100000, guid: 5fadf0b8f544335458ef08216432f1af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Remera
+    second: {fileID: 2100000, guid: c50229c1f82969c4aabe8492e651caef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Zapatillas
+    second: {fileID: 2100000, guid: ed1911211da99ba4485e58bccd6998bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: camisa
+    second: {fileID: 2100000, guid: 6a8a2398a9dd76b478d4287ca11043b4, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 3
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

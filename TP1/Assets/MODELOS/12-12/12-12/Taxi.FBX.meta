@@ -1,0 +1,208 @@
+fileFormatVersion: 2
+guid: e3ff77cc16c2d1d468db6d4a042570b3
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: ' 1'
+    100002: Box001
+    100004: Box002
+    100006: Box003
+    100008: Box004
+    100010: Box005
+    100012: Box006
+    100014: Box007
+    100016: Luces Taxi
+    100018: Plane003
+    100020: Rueda de adelante Derecha
+    100022: Rueda de adelante Izquierda
+    100024: Rueda de atras Derecha
+    100026: //RootNode
+    100028: Vidrios
+    400000: ' 1'
+    400002: Box001
+    400004: Box002
+    400006: Box003
+    400008: Box004
+    400010: Box005
+    400012: Box006
+    400014: Box007
+    400016: Luces Taxi
+    400018: Plane003
+    400020: Rueda de adelante Derecha
+    400022: Rueda de adelante Izquierda
+    400024: Rueda de atras Derecha
+    400026: //RootNode
+    400028: Vidrios
+    2300000: ' 1'
+    2300002: Box001
+    2300004: Box002
+    2300006: Box003
+    2300008: Box004
+    2300010: Box005
+    2300012: Box006
+    2300014: Box007
+    2300016: Luces Taxi
+    2300018: Plane003
+    2300020: Rueda de adelante Derecha
+    2300022: Rueda de adelante Izquierda
+    2300024: Rueda de atras Derecha
+    2300026: Vidrios
+    3300000: ' 1'
+    3300002: Box001
+    3300004: Box002
+    3300006: Box003
+    3300008: Box004
+    3300010: Box005
+    3300012: Box006
+    3300014: Box007
+    3300016: Luces Taxi
+    3300018: Plane003
+    3300020: Rueda de adelante Derecha
+    3300022: Rueda de adelante Izquierda
+    3300024: Rueda de atras Derecha
+    3300026: Vidrios
+    4300000: Plane003
+    4300002: Luces Taxi
+    4300004: Vidrios
+    4300008: Rueda de adelante Izquierda
+    4300010: Rueda de adelante Derecha
+    4300012: Rueda de atras Derecha
+    4300014: Box001
+    4300016: Box002
+    4300018: Box003
+    4300020: Box004
+    4300022: Box005
+    4300024: Box006
+    4300026: Box007
+    11100000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Amarillo
+    second: {fileID: 2100000, guid: d86b41e4b1c1776438dcd45054280c76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gris
+    second: {fileID: 2100000, guid: 75fdd17950a908e41ac0f8e9b8926320, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Luces Rojas
+    second: {fileID: 2100000, guid: e6875ae2c7e1a0548983bb7b0fb37a15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #159'
+    second: {fileID: 2100000, guid: f884ef6f763d4ac47b861bd21a3898c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #43'
+    second: {fileID: 2100000, guid: 17976e2b4bdb2654da0e67eb3917294e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: b6d74ddd5da6eb542b3ed3fd6d5c00c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Partes negras
+    second: {fileID: 2100000, guid: 225d711191d9bbe4193908f07edac78b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vidrios
+    second: {fileID: 2100000, guid: 49224c34175c27c46b4bf732537fa16c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gris Oscuro
+    second: {fileID: 2100000, guid: c2a57f2786325e844b59f087ce66c2f2, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 3
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

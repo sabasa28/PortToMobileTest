@@ -1,0 +1,206 @@
+fileFormatVersion: 2
+guid: 9b25163dd2fb63b44820d85c6e30e196
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Aura (?
+    100002: Head
+    100004: Left Clavicula
+    100006: Left Elbow
+    100008: Left Finger
+    100010: Left Hand
+    100012: Left Shoulder
+    100014: Neck
+    100016: Neck reference
+    100018: Right Ankle
+    100020: Right Ankle001
+    100022: Right Clavicula
+    100024: Right Elbow
+    100026: Right Fingers
+    100028: Right Foot
+    100030: Right Foot Fingers (DO not use)
+    100032: Right Foot Fingers (DO not use)001
+    100034: Right Foot001
+    100036: 'Right Hand '
+    100038: Right Hip
+    100040: Right Hip001
+    100042: Right Knee
+    100044: Right Knee001
+    100046: Right Shoulder
+    100048: Skin
+    100050: Torso
+    100052: //RootNode
+    100054: Waist (Main Father)
+    400000: Aura (?
+    400002: Head
+    400004: Left Clavicula
+    400006: Left Elbow
+    400008: Left Finger
+    400010: Left Hand
+    400012: Left Shoulder
+    400014: Neck
+    400016: Neck reference
+    400018: Right Ankle
+    400020: Right Ankle001
+    400022: Right Clavicula
+    400024: Right Elbow
+    400026: Right Fingers
+    400028: Right Foot
+    400030: Right Foot Fingers (DO not use)
+    400032: Right Foot Fingers (DO not use)001
+    400034: Right Foot001
+    400036: 'Right Hand '
+    400038: Right Hip
+    400040: Right Hip001
+    400042: Right Knee
+    400044: Right Knee001
+    400046: Right Shoulder
+    400048: Skin
+    400050: Torso
+    400052: //RootNode
+    400054: Waist (Main Father)
+    4300000: Skin
+    11100000: //RootNode
+    13700000: Skin
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 05 - Default
+    second: {fileID: 2100000, guid: 152a7ed8498c981479c81a0c82a1d5f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Abrojo
+    second: {fileID: 2100000, guid: 577d04c2e7e55914d820172ce71af7e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Accesorio parte 01
+    second: {fileID: 2100000, guid: b5a6d376aa75aea48a5d982d1d3a43ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Accesorio parte 02
+    second: {fileID: 2100000, guid: 7380bb91ad4837c40b43fc494d4bb3fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chaleco
+    second: {fileID: 2100000, guid: 7244c3a3fa13ffd42bb8a69c8ab4f2b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cinturon
+    second: {fileID: 2100000, guid: e36e28273c0084342ad4374719912c62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pelo
+    second: {fileID: 2100000, guid: d429086f33f49564581c98612b192e38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Piel
+    second: {fileID: 2100000, guid: ca54364dbc4f0f24c8269c5924121f45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Remera
+    second: {fileID: 2100000, guid: 1faabc4128acbe44aaf557e3b76b6e23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Zapatillas
+    second: {fileID: 2100000, guid: 90109640744bdf243a75ed0953dced02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: camisa
+    second: {fileID: 2100000, guid: 95723e9491590424183bbc750e12f8a2, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 3
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
