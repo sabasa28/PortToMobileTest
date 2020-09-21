@@ -73,7 +73,6 @@ public class CollContraObst : MonoBehaviour
 	
 	void IgnorarColls(bool b)
 	{
-		print("IgnorarColls() / b = " + b);
 		
 		if(name == "Camion1")
 		{

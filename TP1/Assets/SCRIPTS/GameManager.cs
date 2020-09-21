@@ -15,9 +15,11 @@ public class GameManager : MonoBehaviour
 	public PlayerInfo PlayerInfo1 = null;
 	public PlayerInfo PlayerInfo2 = null;
 
+
 	public Player Player1;
 	public Player Player2;
 
+	public GameObject HUD;
 	//mueve los esqueletos para usar siempre los mismos
 	public Transform Esqueleto1;
 	public Transform Esqueleto2;
@@ -102,7 +104,7 @@ public class GameManager : MonoBehaviour
 		if(Input.GetKey(KeyCode.Mouse1) &&
 		   Input.GetKey(KeyCode.Keypad0))
 		{
-			SceneManager.LoadScene(1);
+			SceneManager.LoadScene(2);
 			//Application.LoadLevel(Application.loadedLevel);
 		}
 		
@@ -217,7 +219,7 @@ public class GameManager : MonoBehaviour
 			
 			TiempEspMuestraPts -= Time.deltaTime;
 				if (TiempEspMuestraPts <= 0)
-					SceneManager.LoadScene(2);
+					SceneManager.LoadScene(3);
 				//Application.LoadLevel(Application.loadedLevel +1);				
 			
 			break;		
@@ -533,10 +535,13 @@ public class GameManager : MonoBehaviour
 		{
 			PlayerInfo2.FinTuto1 = true;
 		}
-		
-		if(PlayerInfo1.PJ != null && PlayerInfo2.PJ != null)
-			if(PlayerInfo1.FinTuto1 && PlayerInfo2.FinTuto1)
+
+		if (PlayerInfo1.PJ != null && PlayerInfo2.PJ != null)
+			if (PlayerInfo1.FinTuto1 && PlayerInfo2.FinTuto1)
+			{
 				CambiarACarrera();//CambiarATutorial();
+				HUD.SetActive(true);
+			}
 		
 	}
 	

@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
 	public int IdPlayer = 0;
 	
 	public Bolsa[] Bolasas;
-	int CantBolsAct = 0;
+	public int CantBolsAct = 0;
 	public string TagBolsas = "";
 	
 	public enum Estados{EnDescarga, EnConduccion, EnCalibracion, EnTutorial}
@@ -32,14 +32,6 @@ public class Player : MonoBehaviour
 		
 		MiVisualizacion = GetComponent<Visualizacion>();
 	}
-	
-	// Update is called once per frame
-	void Update () 
-	{
-	
-	}
-	
-	//------------------------------------------------------------------//
 	
 	public bool AgregarBolsa(Bolsa b)
 	{

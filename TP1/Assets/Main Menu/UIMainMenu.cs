@@ -37,12 +37,12 @@ public class UIMainMenu : MonoBehaviour
 
     public void PlaySinglePlayer()
     {
-        SceneManager.LoadScene(1);
         Debug.Log("Comenzando juego (single player)");
     }
 
     public void PlaySplitScreen()
     {
+        SceneManager.LoadScene(2);
         Debug.Log("Comenzando juego (split screen)");
     }
 

@@ -13,7 +13,8 @@ public class ControladorDeDescarga : MonoBehaviour
 	
 	public Player Pj;//jugador
 	MeshCollider CollCamion;
-	
+	public BonusDisplay bonusDisplayer;
+
 	public Pallet PEnMov = null;
 	
 	//las camaras que enciende y apaga
@@ -142,7 +143,8 @@ public class ControladorDeDescarga : MonoBehaviour
 		//termina la descarga
 		PEnMov = null;
 		Contador--;
-		
+
+		if (Bonus > 0)bonusDisplayer.Display();
 		Pj.Dinero += (int)Bonus;
 		
 		if(Contador <= 0)

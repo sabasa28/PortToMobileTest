@@ -20,7 +20,7 @@ public class VidIntrMgr : MonoBehaviour
 		   Input.GetKeyDown(KeyCode.Return) ||
 		   Input.GetKeyDown(KeyCode.Mouse0))
 		{
-			SceneManager.LoadScene(1);
+			SceneManager.LoadScene(2);
 			//Application.LoadLevel(1);//el juego
 		}
 		

@@ -49,15 +49,7 @@ public class MngPts : MonoBehaviour
 		   Input.GetKeyDown(KeyCode.Return) ||
 		   Input.GetKeyDown(KeyCode.Mouse0))
 		{
-			SceneManager.LoadScene(0);
-			//Application.LoadLevel(0);
-		}
-		
-		//REINICIAR
-		if(Input.GetKeyDown(KeyCode.Mouse1) ||
-		   Input.GetKeyDown(KeyCode.Keypad0))
-		{
-			//Application.LoadLevel(Application.loadedLevel);
+			SceneManager.LoadScene(1);
 		}
 		
 		//CIERRA LA APLICACION
@@ -66,17 +58,10 @@ public class MngPts : MonoBehaviour
 			Application.Quit();
 		}
 		
-		//CALIBRACION DEL KINECT
-		if(Input.GetKeyDown(KeyCode.Backspace))
-		{
-			//Application.LoadLevel(3);
-		}		
-		
-		
 		TiempEspReiniciar -= Time.deltaTime;
 		if(TiempEspReiniciar <= 0 )
 		{
-			SceneManager.LoadScene(0);
+			SceneManager.LoadScene(1);
 			//Application.LoadLevel(0);
 		}
 		
@@ -240,8 +225,6 @@ public class MngPts : MonoBehaviour
 		R.height = GanadorEsc.y * Screen.height/100;
 		R.x = GanadorPos.x * Screen.width/100;
 		R.y = GanadorPos.y * Screen.height/100;
-		
-		//if(PrimerImaParp)//para que parpadee
 			GUI.Box(R, "");
 	}
 	
