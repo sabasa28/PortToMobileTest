@@ -19,7 +19,7 @@ public class CheakPoint : MonoBehaviour
 	{
 		if(!HabilitadoResp)
 		{
-			Tempo += T.GetDT();
+			Tempo += Time.deltaTime;
 			if(Tempo >= TiempPermanencia)
 			{
 				Tempo = 0;

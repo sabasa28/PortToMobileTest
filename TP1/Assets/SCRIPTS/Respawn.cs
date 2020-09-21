@@ -3,6 +3,7 @@ using System.Collections;
 
 public class Respawn : MonoBehaviour 
 {
+	public CarController carController;
 	CheakPoint CPAct;
 	CheakPoint CPAnt;
 	
@@ -50,7 +51,7 @@ public class Respawn : MonoBehaviour
 		
 		if(IgnorandoColision)
 		{
-			Tempo += T.GetDT();
+			Tempo += Time.deltaTime;
 			if(Tempo > TiempDeNoColision)
 			{
 				IgnorarColision(false);
@@ -64,8 +65,9 @@ public class Respawn : MonoBehaviour
 	public void Respawnear()
 	{
 		GetComponent<Rigidbody>().velocity = Vector3.zero;
-		
-		gameObject.SendMessage("SetGiro", 0f);
+
+		carController.SetGiro(0f);
+		//gameObject.SendMessage("SetGiro", 0f);
 		
 		if(CPAct.Habilitado())
 		{
@@ -93,7 +95,8 @@ public class Respawn : MonoBehaviour
 	public void Respawnear(Vector3 pos)
 	{
 		GetComponent<Rigidbody>().velocity = Vector3.zero;
-		
+
+
 		gameObject.SendMessage("SetGiro", 0f);
 		
 		transform.position = pos;
@@ -104,7 +107,8 @@ public class Respawn : MonoBehaviour
 	public void Respawnear(Vector3 pos, Vector3 dir)
 	{
 		GetComponent<Rigidbody>().velocity = Vector3.zero;
-		
+
+
 		gameObject.SendMessage("SetGiro", 0f);
 		
 		transform.position = pos;

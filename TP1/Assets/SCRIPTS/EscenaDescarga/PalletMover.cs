@@ -3,42 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PalletMover : ManejoPallets {
-
-    public MoveType miInput;
-    public enum MoveType {
-        WASD,
-        Arrows
-    }
+    [SerializeField] int playerNum;
 
     public ManejoPallets Desde, Hasta;
     bool segundoCompleto = false;
 
     private void Update() {
-        switch (miInput) {
-            case MoveType.WASD:
-                if (!Tenencia() && Desde.Tenencia() && Input.GetKeyDown(KeyCode.A)) {
-                    PrimerPaso();
-                }
-                if (Tenencia() && Input.GetKeyDown(KeyCode.S)) {
-                    SegundoPaso();
-                }
-                if (segundoCompleto && Tenencia() && Input.GetKeyDown(KeyCode.D)) {
-                    TercerPaso();
-                }
-                break;
-            case MoveType.Arrows:
-                if (!Tenencia() && Desde.Tenencia() && Input.GetKeyDown(KeyCode.LeftArrow)) {
-                    PrimerPaso();
-                }
-                if (Tenencia() && Input.GetKeyDown(KeyCode.DownArrow)) {
-                    SegundoPaso();
-                }
-                if (segundoCompleto && Tenencia() && Input.GetKeyDown(KeyCode.RightArrow)) {
-                    TercerPaso();
-                }
-                break;
-            default:
-                break;
+        if (!Tenencia() && Desde.Tenencia() && (Mathf.RoundToInt(InputManager.Instance.GetAxisRaw("Horizontal"+playerNum)) == -1))
+        {
+            PrimerPaso();
+        }
+        if (Tenencia() && (Mathf.RoundToInt(InputManager.Instance.GetAxisRaw("Vertical" + playerNum)) == -1))
+        {
+            SegundoPaso();
+        }
+        if (segundoCompleto && Tenencia() && (Mathf.RoundToInt(InputManager.Instance.GetAxisRaw("Horizontal" + playerNum)) == 1))
+        {
+            TercerPaso();
         }
     }
 

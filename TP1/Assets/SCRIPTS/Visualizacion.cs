@@ -297,7 +297,7 @@ public class Visualizacion : MonoBehaviour
 		case ContrCalibracion.Estados.Tutorial:
 			//tome la bolsa y depositela en el estante
 			
-			TempoIntTuto += T.GetDT();
+			TempoIntTuto += Time.deltaTime;
 			if(TempoIntTuto >= Intervalo)
 			{
 				TempoIntTuto = 0;
@@ -465,7 +465,7 @@ public class Visualizacion : MonoBehaviour
 				GS_Inv.box.normal.background = TextInvDer[contador];
 			else
 			{
-				TempParp += T.GetDT();
+				TempParp += Time.deltaTime;
 				
 				if(TempParp >= Parpadeo)
 				{
@@ -493,7 +493,7 @@ public class Visualizacion : MonoBehaviour
 				GS_Inv.box.normal.background = TextInvIzq[contador];
 			else
 			{
-				TempParp += T.GetDT();
+				TempParp += Time.deltaTime;
 				
 				if(TempParp >= Parpadeo)
 				{

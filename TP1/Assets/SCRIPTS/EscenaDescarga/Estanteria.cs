@@ -30,7 +30,7 @@ public class Estanteria : ManejoPallets
 		//animacion de parpadeo
 		if(Anim)
 		{
-			AnimTempo += T.GetDT();
+			AnimTempo += Time.deltaTime;
 			if(AnimTempo > Permanencia)
 			{
 				if(ModelSuelo.GetComponent<Renderer>().material.color == ColorParpadeo)

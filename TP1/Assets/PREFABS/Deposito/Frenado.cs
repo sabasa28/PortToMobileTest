@@ -40,7 +40,7 @@ public class Frenado : MonoBehaviour
 	{
 		if(Frenando)
 		{
-			Tempo += T.GetFDT();
+			Tempo += Time.fixedDeltaTime;
 			if(Tempo >= (TiempFrenado / CantMensajes) * Contador)
 			{
 				Contador++;
@@ -79,7 +79,9 @@ public class Frenado : MonoBehaviour
 		GetComponent<ControlDireccion>().enabled = false;
 		gameObject.SendMessage("SetAcel", 0f);
 		GetComponent<Rigidbody>().velocity = Vector3.zero;
-		
+
+
+
 		Frenando = true;
 		
 		//gameObject.SendMessage("SetDragZ", 25f);

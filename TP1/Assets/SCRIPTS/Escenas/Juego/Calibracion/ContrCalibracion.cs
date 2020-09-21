@@ -42,7 +42,7 @@ public class ContrCalibracion : MonoBehaviour
         palletsMover.enabled = false;
         Pj.ContrCalib = this;
 		
-		GM = GameObject.Find("GameMgr").GetComponent<GameManager>();
+		GM = GameManager.Instance;
 		
 		P.CintaReceptora = Llegada.gameObject;
 		Partida.Recibir(P);
@@ -57,7 +57,7 @@ public class ContrCalibracion : MonoBehaviour
 		{
 			if(Tempo2 < TiempEspCalib)
 			{
-				Tempo2 += T.GetDT();
+				Tempo2 += Time.deltaTime;
 				if(Tempo2 > TiempEspCalib)
 				{
 					 SetActivComp(true);

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 public class UIMainMenu : MonoBehaviour
 {
     [SerializeField]
@@ -37,6 +37,7 @@ public class UIMainMenu : MonoBehaviour
 
     public void PlaySinglePlayer()
     {
+        SceneManager.LoadScene(1);
         Debug.Log("Comenzando juego (single player)");
     }
 
@@ -88,6 +89,7 @@ public class UIMainMenu : MonoBehaviour
 
     public void Exit()
     {
+        Application.Quit();
         Debug.Log("Exiting Game");
     }
 

@@ -1,6 +1,6 @@
 using UnityEngine;
 using System.Collections;
-
+using UnityEngine.SceneManagement;
 public class ManejadorKinectCalib : MonoBehaviour 
 {
 	public GameObject[] ParaAct;
@@ -55,7 +55,9 @@ public class ManejadorKinectCalib : MonoBehaviour
 		   Input.GetKeyDown(KeyCode.KeypadEnter) ||
 		   Input.GetKeyDown(KeyCode.Mouse0))
 		{
-			Application.LoadLevel(0);
+			SceneManager.LoadScene(0);
+
+			//Application.LoadLevel(0);
 		}
 		//SALIR
 		if(Input.GetKeyDown(KeyCode.Escape))
@@ -67,7 +69,7 @@ public class ManejadorKinectCalib : MonoBehaviour
 		if(Input.GetKeyDown(KeyCode.Mouse1) ||
 		   Input.GetKeyDown(KeyCode.Keypad0))
 		{
-			Application.LoadLevel(Application.loadedLevel);
+			//Application.LoadLevel(Application.loadedLevel);
 		}
 		
 	}

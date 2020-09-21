@@ -17,7 +17,7 @@ public class ContrTutorial : MonoBehaviour
 	// Use this for initialization
 	void Start () 
 	{
-		GM = GameObject.Find("GameMgr").GetComponent<GameManager>();
+		GM = GameManager.Instance;
 		
 		Pj.ContrTuto = this;
 	}
@@ -30,7 +30,8 @@ public class ContrTutorial : MonoBehaviour
 		{
 			if(Tempo < TiempTuto)
 			{
-				Tempo += T.GetDT();
+				Tempo += T.Get
+		();
 				if(Tempo >= TiempTuto)
 				{
 					Finalizar();
@@ -60,6 +61,7 @@ public class ContrTutorial : MonoBehaviour
 		GM.FinTutorial(Pj.IdPlayer);
 		Pj.GetComponent<Frenado>().Frenar();
 		Pj.GetComponent<Rigidbody>().velocity = Vector3.zero;
+
 		Pj.VaciarInv();
 	}
 }
