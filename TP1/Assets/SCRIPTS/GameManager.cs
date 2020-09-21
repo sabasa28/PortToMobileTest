@@ -1,49 +1,49 @@
 using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
 	//public static Player[] Jugadoers;
-	
-	public static GameManager Instancia;
-	
+
+
 	public float TiempoDeJuego = 60;
-	
-	public enum EstadoJuego{Calibrando, Jugando, Finalizado}
+
+	public enum EstadoJuego { Calibrando, Jugando, Finalizado }
 	public EstadoJuego EstAct = EstadoJuego.Calibrando;
-	
+
 	public PlayerInfo PlayerInfo1 = null;
 	public PlayerInfo PlayerInfo2 = null;
-	
+
 	public Player Player1;
 	public Player Player2;
-	
+
 	//mueve los esqueletos para usar siempre los mismos
 	public Transform Esqueleto1;
 	public Transform Esqueleto2;
 	//public Vector3[] PosEsqsCalib;
 	public Vector3[] PosEsqsCarrera;
-	
+
 	bool PosSeteada = false;
-	
+
 	bool ConteoRedresivo = true;
 	public Rect ConteoPosEsc;
 	public float ConteoParaInicion = 3;
 	public GUISkin GS_ConteoInicio;
-	
+
 	public Rect TiempoGUI = new Rect();
 	public GUISkin GS_TiempoGUI;
 	Rect R = new Rect();
-	
+
 	public float TiempEspMuestraPts = 3;
-	
+
 	//posiciones de los camiones dependientes del lado que les toco en la pantalla
 	//la pos 0 es para la izquierda y la 1 para la derecha
-	public Vector3[]PosCamionesCarrera = new Vector3[2];
+	public Vector3[] PosCamionesCarrera = new Vector3[2];
 	//posiciones de los camiones para el tutorial
 	public Vector3 PosCamion1Tuto = Vector3.zero;
 	public Vector3 PosCamion2Tuto = Vector3.zero;
-	
+
 	//listas de GO que activa y desactiva por sub-escena
 	//escena de calibracion
 	public GameObject[] ObjsCalibracion1;
@@ -54,25 +54,37 @@ public class GameManager : MonoBehaviour
 	//la pista de carreras
 	public GameObject[] ObjsCarrera;
 	//de las descargas se encarga el controlador de descargas
-	
+
 	//para saber que el los ultimos 5 o 10 segs se cambie de tamaño la font del tiempo
 	//bool SeteadoNuevaFontSize = false;
 	//int TamOrigFont = 75;
 	//int TamNuevoFont = 75;
-	
+
 	/*
 	//para el testing
 	public float DistanciaRecorrida = 0;
 	public float TiempoTranscurrido = 0;
 	*/
-	
+
 	IList<int> users;
-	
+
 	//--------------------------------------------------------//
-	
+	private static GameManager Instancia;
+	public static GameManager Instance
+	{
+		get
+		{
+			return Instancia;
+		}
+	}
 	void Awake()
 	{
-		GameManager.Instancia = this;
+		if (Instancia != null)
+		{
+			Destroy(gameObject);
+			return;
+		}
+		Instancia = this;
 	}
 	
 	void Start()
@@ -90,7 +102,8 @@ public class GameManager : MonoBehaviour
 		if(Input.GetKey(KeyCode.Mouse1) &&
 		   Input.GetKey(KeyCode.Keypad0))
 		{
-			Application.LoadLevel(Application.loadedLevel);
+			SceneManager.LoadScene(1);
+			//Application.LoadLevel(Application.loadedLevel);
 		}
 		
 		//CIERRA LA APLICACION
@@ -118,13 +131,13 @@ public class GameManager : MonoBehaviour
 				}
 			}
 
-                if (PlayerInfo1.PJ == null && Input.GetKeyDown(KeyCode.W)) {
+                if (PlayerInfo1.PJ == null) {
                     PlayerInfo1 = new PlayerInfo(0, Player1);
                     PlayerInfo1.LadoAct = Visualizacion.Lado.Izq;
                     SetPosicion(PlayerInfo1);
                 }
 
-                if (PlayerInfo2.PJ == null && Input.GetKeyDown(KeyCode.UpArrow)) {
+                if (PlayerInfo2.PJ == null) {
                     PlayerInfo2 = new PlayerInfo(1, Player2);
                     PlayerInfo2.LadoAct = Visualizacion.Lado.Der;
                     SetPosicion(PlayerInfo2);
@@ -158,7 +171,7 @@ public class GameManager : MonoBehaviour
 			
 			/*
 			//para testing
-			TiempoTranscurrido += T.GetDT();
+			TiempoTranscurrido += Time.deltaTime;
 			DistanciaRecorrida += (Player1.transform.position - PosCamionesCarrera[0]).magnitude;
 			*/
 			
@@ -168,7 +181,7 @@ public class GameManager : MonoBehaviour
 				//Player1.rigidbody.velocity = Vector3.zero;
 				//Player2.rigidbody.velocity = Vector3.zero;
 				
-				ConteoParaInicion -= T.GetDT();
+				ConteoParaInicion -= Time.deltaTime;
 				if(ConteoParaInicion < 0)
 				{
 					EmpezarCarrera();
@@ -178,7 +191,7 @@ public class GameManager : MonoBehaviour
 			else
 			{
 				//baja el tiempo del juego
-				TiempoDeJuego -= T.GetDT();
+				TiempoDeJuego -= Time.deltaTime;
 				if(TiempoDeJuego <= 0)
 				{
 					//termina el juego
@@ -203,8 +216,9 @@ public class GameManager : MonoBehaviour
 			//tambien se puede hacer alguna animacion, es el tiempo previo a la muestra de pts
 			
 			TiempEspMuestraPts -= Time.deltaTime;
-			if(TiempEspMuestraPts <= 0)
-				Application.LoadLevel(Application.loadedLevel +1);				
+				if (TiempEspMuestraPts <= 0)
+					SceneManager.LoadScene(2);
+				//Application.LoadLevel(Application.loadedLevel +1);				
 			
 			break;		
 		}
