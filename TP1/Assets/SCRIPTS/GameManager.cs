@@ -55,6 +55,7 @@ public class GameManager : MonoBehaviour
 	public GameObject[] ObjsTuto2;
 	//la pista de carreras
 	public GameObject[] ObjsCarrera;
+	public bool endOfStage = false;
 	//de las descargas se encarga el controlador de descargas
 
 	//para saber que el los ultimos 5 o 10 segs se cambie de tamaño la font del tiempo
@@ -135,14 +136,14 @@ public class GameManager : MonoBehaviour
 
                 if (PlayerInfo1.PJ == null) {
                     PlayerInfo1 = new PlayerInfo(0, Player1);
-                    PlayerInfo1.LadoAct = Visualizacion.Lado.Izq;
+                    PlayerInfo1.LadoAct = Visualizacion.Lado.Izq; 
                     SetPosicion(PlayerInfo1);
                 }
 
                 if (PlayerInfo2.PJ == null) {
                     PlayerInfo2 = new PlayerInfo(1, Player2);
-                    PlayerInfo2.LadoAct = Visualizacion.Lado.Der;
-                    SetPosicion(PlayerInfo2);
+                    PlayerInfo2.LadoAct = Visualizacion.Lado.Der; 
+					SetPosicion(PlayerInfo2);
                 }
 			
 			//cuando los 2 pj terminaron los tutoriales empiesa la carrera
@@ -166,7 +167,7 @@ public class GameManager : MonoBehaviour
 				TiempoDeJuego = 0;
 			}
 			
-			if(TiempoDeJuego <= 0)
+			if(TiempoDeJuego <= 0 || endOfStage)
 			{
 				FinalizarCarrera();
 			}

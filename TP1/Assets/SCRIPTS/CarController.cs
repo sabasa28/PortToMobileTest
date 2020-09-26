@@ -11,7 +11,7 @@ public class CarController : MonoBehaviour {
     float giro = 0f;
     float acel = 1f;
 	
-	void FixedUpdate () {
+	void Update () { //update o fixed? 
         foreach (var wheel in throttleWheels) {
             wheel.motorTorque = throttleCoefficient * Time.fixedDeltaTime * acel;
         }

@@ -8,4 +8,5 @@ public class DatosPartida
 	public static Lados LadoGanadaor;
 	public static int PtsGanador;
 	public static int PtsPerdedor;
+	public static bool Singleplayer;
 }
