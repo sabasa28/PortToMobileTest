@@ -23,6 +23,8 @@ public class UIMainMenu : MonoBehaviour
     [SerializeField]
     GameObject optionsPanel;
     [SerializeField]
+    Text crazyModeTxt;
+    [SerializeField]
     Button optionsFirstButton;
     [SerializeField]
     GameObject modeSelecPanel;
@@ -69,11 +71,21 @@ public class UIMainMenu : MonoBehaviour
         optionsFirstButton.Select();
         menuSelectedButton = optionsButton;
     }
+
     public void HideOptions()
     {
         optionsPanel.SetActive(false);
         menuPanel.SetActive(true);
         menuSelectedButton.Select();
+    }
+
+    public void SetCrazyMode()
+    {
+        DatosPartida.CrazyMode = !DatosPartida.CrazyMode;
+        if (DatosPartida.CrazyMode)
+            crazyModeTxt.text = "YES";
+        else
+            crazyModeTxt.text = "NO";
     }
 
     public void ShowCredits()

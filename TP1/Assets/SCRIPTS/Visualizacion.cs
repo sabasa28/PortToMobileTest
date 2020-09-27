@@ -200,14 +200,15 @@ public class Visualizacion : MonoBehaviour
 			
 			
 		case Lado.Izq:
-			r.x = 0;
+				if(DatosPartida.Singleplayer)
+					r.width = 1;
+				r.x = 0;
 			break;
 		}
-		
 		CamCalibracion.rect = r;
 		CamConduccion.rect = r;
 		CamDescarga.rect = r;
-		
+
 		if(LadoAct == Visualizacion.Lado.Izq)
 		{
 			Techo.GetComponent<Renderer>().material.mainTexture = TextNum1;

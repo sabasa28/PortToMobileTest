@@ -103,6 +103,11 @@ public class TaxiComp : MonoBehaviour
 	
 	//--------------------------------------------------------------------//
 	
+	public void SetCrazyMode()
+    {
+		Vel = -Vel;
+    }
+
 	bool VerificarCostado(Lado lado)
 	{
 		switch (lado)

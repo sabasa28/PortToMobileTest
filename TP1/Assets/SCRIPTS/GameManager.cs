@@ -56,6 +56,16 @@ public class GameManager : MonoBehaviour
 	//la pista de carreras
 	public GameObject[] ObjsCarrera;
 	public bool endOfStage = false;
+
+	[SerializeField] GameObject extraObjs;
+
+	[SerializeField] Camera CalibCamP2;
+	[SerializeField] Camera GameplayCamP2;
+
+	[SerializeField] GameObject tactilInput;
+	[SerializeField] GameObject inputP2;
+	[SerializeField] GameObject descargaP2;
+	[SerializeField] GameObject hudP2;
 	//de las descargas se encarga el controlador de descargas
 
 	//para saber que el los ultimos 5 o 10 segs se cambie de tamaño la font del tiempo
@@ -92,6 +102,14 @@ public class GameManager : MonoBehaviour
 	
 	void Start()
 	{
+#if UNITY_STANDALONE
+		tactilInput.SetActive(false);
+#endif
+
+		if (DatosPartida.Singleplayer)
+		{
+			SetSinglePlayer();
+		}
 		IniciarCalibracion();
 		
 		//para testing
@@ -288,7 +306,17 @@ public class GameManager : MonoBehaviour
 		Player1.CambiarACalibracion();
 		Player2.CambiarACalibracion();
 	}
-		
+
+	void SetSinglePlayer()
+	{
+		inputP2.SetActive(false);
+		hudP2.SetActive(false);
+		descargaP2.SetActive(false);
+		CalibCamP2.rect = new Rect(0, 0, 1, 1);
+		GameplayCamP2.rect = new Rect(0, 0, 1, 1);
+		Player2.gameObject.SetActive(false);
+	}
+
 	/*
 	public void CambiarADescarga(Player pj)
 	{
@@ -300,8 +328,8 @@ public class GameManager : MonoBehaviour
 	{
 		//lo mismo pero al revez
 	}
-	*/	
-	
+	*/
+
 	void CambiarATutorial()
 	{
 		PlayerInfo1.FinCalibrado = true;
@@ -340,11 +368,24 @@ public class GameManager : MonoBehaviour
 	
 	void EmpezarCarrera()
 	{
+		if (DatosPartida.CrazyMode)
+		{
+			TaxiComp[] taxis = FindObjectsOfType<TaxiComp>();
+			for (int i = 0; i < taxis.Length; i++)
+			{
+				taxis[i].SetCrazyMode();
+			}
+			extraObjs.SetActive(true);
+
+		}
 		Player1.GetComponent<Frenado>().RestaurarVel();
 		Player1.GetComponent<ControlDireccion>().Habilitado = true;
 			
-		Player2.GetComponent<Frenado>().RestaurarVel();
-		Player2.GetComponent<ControlDireccion>().Habilitado = true;
+		if (!DatosPartida.Singleplayer)
+		{ 
+			Player2.GetComponent<Frenado>().RestaurarVel();
+			Player2.GetComponent<ControlDireccion>().Habilitado = true;
+		}
 	}
 	
 	void FinalizarCarrera()
@@ -379,10 +420,13 @@ public class GameManager : MonoBehaviour
 		}
 		
 		Player1.GetComponent<Frenado>().Frenar();
-		Player2.GetComponent<Frenado>().Frenar();
-		
 		Player1.ContrDesc.FinDelJuego();
-		Player2.ContrDesc.FinDelJuego();
+
+		if (DatosPartida.Singleplayer)
+		{
+			Player2.GetComponent<Frenado>().Frenar();
+			Player2.ContrDesc.FinDelJuego();
+		}
 	}
 	
 	/*
@@ -491,20 +535,26 @@ public class GameManager : MonoBehaviour
 		Player1.transform.forward = Vector3 .forward;
 		Player1.GetComponent<Frenado>().Frenar();
 		Player1.CambiarAConduccion();
-			
-		Player2.transform.forward = Vector3 .forward;
-		Player2.GetComponent<Frenado>().Frenar();
-		Player2.CambiarAConduccion();
-		
+
+		if (!DatosPartida.Singleplayer)
+		{
+			Player2.transform.forward = Vector3.forward;
+			Player2.GetComponent<Frenado>().Frenar();
+			Player2.CambiarAConduccion();
+		}
+
 		//los deja andando
 		Player1.GetComponent<Frenado>().RestaurarVel();
-		Player2.GetComponent<Frenado>().RestaurarVel();
 		//cancela la direccion
 		Player1.GetComponent<ControlDireccion>().Habilitado = false;
-		Player2.GetComponent<ControlDireccion>().Habilitado = false;
-		//les de direccion
+		if (!DatosPartida.Singleplayer)
+		{
+			Player2.GetComponent<Frenado>().RestaurarVel();
+			Player2.GetComponent<ControlDireccion>().Habilitado = false;
+			Player2.transform.forward = Vector3.forward;
+		}
+			//les de direccion
 		Player1.transform.forward = Vector3.forward;
-		Player2.transform.forward = Vector3.forward;
 		
 		EstAct = GameManager.EstadoJuego.Jugando;
 	}
@@ -538,7 +588,7 @@ public class GameManager : MonoBehaviour
 		}
 
 		if (PlayerInfo1.PJ != null && PlayerInfo2.PJ != null)
-			if (PlayerInfo1.FinTuto1 && PlayerInfo2.FinTuto1)
+			if (PlayerInfo1.FinTuto1 && (PlayerInfo2.FinTuto1||DatosPartida.Singleplayer))
 			{
 				CambiarACarrera();//CambiarATutorial();
 				HUD.SetActive(true);

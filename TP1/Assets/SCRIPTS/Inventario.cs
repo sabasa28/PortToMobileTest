@@ -29,12 +29,6 @@ public class Inventario : MonoBehaviour
 		Pj = GetComponent<Player>();
 	}
 	
-	// Update is called once per frame
-	void Update () 
-	{
-	
-	}
-	
 	void OnGUI()
 	{
 		

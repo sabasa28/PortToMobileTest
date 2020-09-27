@@ -17,7 +17,7 @@ public class VirtualJoystick : MonoBehaviour, IDragHandler, IPointerDownHandler,
     private void Start()
     {
         backgroundOrigColor = Background.color;
-        backgroundWhilePressedColor = new Color(backgroundOrigColor.r, backgroundOrigColor.g, backgroundOrigColor.b, 1);
+        backgroundWhilePressedColor = new Color(backgroundOrigColor.r, backgroundOrigColor.g, backgroundOrigColor.b, 0.8f);
     }
     public void OnPointerDown(PointerEventData eventData)
     {

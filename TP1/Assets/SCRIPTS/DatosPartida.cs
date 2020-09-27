@@ -9,4 +9,5 @@ public class DatosPartida
 	public static int PtsGanador;
 	public static int PtsPerdedor;
 	public static bool Singleplayer;
+	public static bool CrazyMode;
 }
